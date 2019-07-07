@@ -1,0 +1,33 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "node server",
+  "main": "src/app.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "handlebars": "^4.1.2",
+    "save": "^2.4.0",
+    "supervisor": "^0.12.0",
+    "yargs": "^13.2.4"
+  },
+  "bin":{
+    "anydoor":"bin/anydoor"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run star"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gavinli007/Node-Static-Server.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Gavin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gavinli007/Node-Static-Server/issues"
+  },
+  "homepage": "https://github.com/gavinli007/Node-Static-Server#readme"
+}
